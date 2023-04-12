@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="./public/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+        <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light px-3">
+        <a class="navbar-brand" href="#scrollspyHeading0">Navbar</a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="collapseNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading3">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <div style="height: 100vh; background-color: rgba(255,0,0, 1);" id="scrollspyHeading0">
+            Section one
+        </div>
+        <div style="height: 100vh; background-color: rgb(193, 186, 56, 1);" id="scrollspyHeading1">
+            Section two
+        </div>
+        <div style="height: 100vh; background-color: rgba(36, 61, 184, 1);" id="scrollspyHeading2">
+            Section three
+        </div>
+        <div style="height: 100vh; background-color: rgba(94, 197, 95, 1);" id="scrollspyHeading3">
+            Section four 
+        </div>
+    </div>
+     
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./public/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
